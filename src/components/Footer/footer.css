@@ -10,7 +10,7 @@
 }
 
 .spin-btn {
-  margin-top: 0.5rem;
+  margin: 0.5rem;
   height: 6rem;
   width: 6rem;
   border: 1px solid var(--blue);
