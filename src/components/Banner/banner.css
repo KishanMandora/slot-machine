@@ -1,0 +1,26 @@
+.banner {
+  width: 80%;
+  border-radius: 8px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0.75rem var(--shadow-clr);
+}
+
+.start {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.lost {
+  font-size: 1.75rem;
+  font-weight: 500;
+  color: var(--blue);
+}
+
+.won {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold);
+}

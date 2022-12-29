@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --matte-black: #171717;
+  --white: #ffffff;
+  --shadow-clr: #3b3b3b;
+  --blue: #60a5fa;
+  --gold: #ffd700;
+}
+
+body {
+  background: var(--black);
+}
+
+.App {
+  margin: 1rem auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: var(--matte-black);
+  border-radius: 0.75rem;
+  color: var(--white);
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+  }
+}

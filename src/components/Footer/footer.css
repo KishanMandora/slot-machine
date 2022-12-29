@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: linear-gradient(90deg, #414141, #2d3436);
+  width: 100%;
+  padding: 1rem;
+  height: max-content;
+  align-items: center;
+}
+
+.spin-btn {
+  margin-top: 0.5rem;
+  height: 6rem;
+  width: 6rem;
+  border: 1px solid var(--blue);
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spin-conatiner {
+  height: 5.25rem;
+  width: 5.25rem;
+  border-radius: 9999px;
+  border: 1px solid var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
