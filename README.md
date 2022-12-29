@@ -1,4 +1,4 @@
-# slot-machine
+# Slot Machine
 A simple app replicating the functionality of a classic slot machine game. 
 
 ## Features:
